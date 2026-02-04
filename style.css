@@ -1,0 +1,195 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main_img {
+  width: 130px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  background-color: transparent;
+}
+
+.header a img {
+  margin-left: 60px;
+  margin-right: 20px;
+}
+
+.header a img:hover {
+  color: rgb(125, 123, 123);
+}
+
+.a1 {
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.a1:hover {
+  color: rgb(125, 123, 123);
+}
+
+.linkdiv {
+  margin-right: 500px;
+  margin-top: 3px;
+}
+
+.div2 {
+  margin-right: 60px;
+}
+
+.div2 > a {
+  margin-right: 3px;
+}
+
+.button1 {
+  width: 80px;
+  height: 30px;
+  border-radius: 2px;
+  border-radius: 6px;
+  border: none;
+  background: transparent;
+  border: 1px solid black;
+}
+
+.button1:hover {
+  background-color: rgb(125, 123, 123);
+}
+
+.button2 {
+  width: 100px;
+  height: 30px;
+  border-radius: 6px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.button2:hover {
+  color: rgb(144, 137, 137);
+}
+
+.main {
+  height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    #ffffff 0%,
+    #ffffff 10%,
+    #2193f3 40%,
+    #ec407a 100%
+  );
+
+  margin-top: 10px;
+  border-top: 2px solid whitesmoke;
+}
+
+.mainb1 {
+  height: 40px;
+  width: 325px;
+  margin-bottom: 40px;
+  background: transparent;
+  border: none;
+  position: relative;
+  padding-left: 45px;
+
+  border-radius: 20px;
+}
+
+.mainb1:hover {
+  background-color: rgb(253, 250, 250);
+  border-radius: 20px;
+}
+
+.mainb2 {
+  position: absolute;
+  left: 10px;
+  margin-top: 8px;
+  margin-left: 600px;
+  width: 40px;
+  height: 25px;
+  border-radius: 20px;
+  background-color: #2193f3;
+  border: none;
+  color: white;
+  margin-right: 15px;
+}
+
+.fa-solid.fa-arrow-right {
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+.main_input {
+  height: 130px;
+  width: 780px;
+  border-radius: 20px;
+  position: relative;
+  outline: none;
+  border: none;
+}
+
+.main_input:focus {
+  border: 1px solid ghostwhite;
+}
+
+.inputp {
+  position: absolute;
+  top: 12px;
+  left: 28px;
+  font-size: 14px;
+}
+
+.inputdiv {
+  position: relative;
+}
+
+.logodiv {
+  display: flex;
+  width: 780px;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 5px;
+}
+
+.plusdiv {
+  margin-right: 420px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.leftdiv {
+  margin-left: 200px;
+  font-size: 20px;
+}
+
+.logodivb1 {
+  height: 30px;
+  width: 50px;
+  background: transparent;
+  border: 1px solid rgb(222, 219, 219);
+  border-radius: 20px;
+}
+
+.logodivb1:hover {
+  background-color: rgb(243, 237, 237);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 40px;
+}
